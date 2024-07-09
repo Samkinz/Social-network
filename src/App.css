@@ -1,0 +1,19 @@
+.App{
+  width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 
+  'h h '
+  'n c';
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 2fr 10fr;
+  gap: 5px;
+}
+
+.wrapperContent{
+    grid-area: 'c';
+   background-color: rgb(234, 249, 235);
+   font-size: 14px;
+}
+
+

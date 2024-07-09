@@ -1,0 +1,19 @@
+.content{
+  grid-area: c;
+ background-color: rgb(214, 213, 213);
+ }
+
+ .profile{
+  display:flex ;
+  flex-direction: column;
+ }
+
+ .header{
+  display: flex;
+ }
+
+ img{
+  width: 80px;
+  margin-right: 10px;
+  margin-left: -5px;
+ }

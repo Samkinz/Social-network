@@ -1,0 +1,20 @@
+.nav{
+  grid-area: 'n';
+  background-color: rgb(238, 230, 221);
+}
+
+.nav a{
+  color: rgb(64, 69, 222);
+}
+
+ .nav a:hover{
+  color: gold;
+}
+
+ .nav a:active{
+  color: aliceblue;
+}
+
+ .nav a.active{
+ color: aliceblue;
+}
