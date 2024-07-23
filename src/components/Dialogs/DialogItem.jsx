@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function DialogItem ({ name, onClick }){
+export default function DialogItem ({ dialog, onClick }){
+  const {name} = dialog;
   return (
-    <>
-      <button>{name} </button>
-    </>
+      <button onClick={onClick}> {name} </button>
+
   );
 };
